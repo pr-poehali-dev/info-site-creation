@@ -22,7 +22,7 @@ const Index = () => {
       id: 1,
       title: 'Мода как самовыражение',
       description: 'Исследуем, как стиль становится языком личности и способом рассказать свою историю миру.',
-      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/c2a0c711-d5fd-4a8f-9dd6-0ddc8eb74787.jpg',
+      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/d4b704cf-3b71-4ae0-83ee-55b5bf29ae1e.jpg',
       date: '15 октября 2024',
       readTime: '5 мин'
     },
@@ -30,7 +30,7 @@ const Index = () => {
       id: 2,
       title: 'Дизайн, который вдохновляет',
       description: 'Как визуальные решения формируют наше восприятие и влияют на ежедневные эмоции и действия.',
-      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/41b7b984-64be-452a-b3a8-a4af32fb85bb.jpg',
+      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/09a387fc-7621-4b47-a1c0-71d242073a2f.jpg',
       date: '10 октября 2024',
       readTime: '7 мин'
     },
@@ -38,7 +38,7 @@ const Index = () => {
       id: 3,
       title: 'Музыка как образ жизни',
       description: 'Разбираем, как звуки и ритмы становятся частью нашей идентичности и формируют культурный код.',
-      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/9d4051e3-659f-4b9c-8450-884662a8cea4.jpg',
+      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/3bcebeaf-cd11-4b56-b7b5-6b6614ca0639.jpg',
       date: '5 октября 2024',
       readTime: '6 мин'
     }
