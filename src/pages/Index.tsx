@@ -48,7 +48,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-8">
-          <h1 className="text-2xl font-semibold tracking-tight">Блог</h1>
+          <h1 className="text-2xl font-semibold tracking-tight">Хэллскари</h1>
         </div>
       </header>
 
@@ -56,10 +56,10 @@ const Index = () => {
         <section className="mb-24">
           <div className="max-w-2xl">
             <h2 className="text-5xl font-light mb-6 leading-tight">
-              Мысли о дизайне,<br />технологиях и жизни
+              Хэллскари как<br />смысл жизни
             </h2>
             <p className="text-xl text-muted-foreground font-light">
-              Исследуем идеи, которые меняют мир вокруг нас
+              Размышления о том, что действительно важно
             </p>
           </div>
         </section>
@@ -139,7 +139,7 @@ const Index = () => {
       <footer className="border-t border-border mt-24">
         <div className="max-w-6xl mx-auto px-6 py-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-muted-foreground">
-            <p>© 2024 Блог. Все права защищены.</p>
+            <p>© 2024 Хэллскари. Все права защищены.</p>
             <div className="flex gap-6 items-center">
               <a href="#" className="hover:text-foreground transition-colors">О нас</a>
               <a href="#" className="hover:text-foreground transition-colors">Контакты</a>
