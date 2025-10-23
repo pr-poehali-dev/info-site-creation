@@ -144,7 +144,7 @@ const Index = () => {
               <a href="#" className="hover:text-foreground transition-colors">О нас</a>
               <a href="#" className="hover:text-foreground transition-colors">Контакты</a>
               <a 
-                href="https://t.me/your_channel" 
+                href="https://t.me/uglyscary" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 hover:text-foreground transition-colors"
