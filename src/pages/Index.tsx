@@ -1,21 +1,8 @@
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email) {
-      setSubscribed(true);
-      setEmail('');
-      setTimeout(() => setSubscribed(false), 3000);
-    }
-  };
 
   const blogPosts = [
     {
@@ -107,32 +94,23 @@ const Index = () => {
 
         <section className="border-t border-border pt-16">
           <div className="max-w-xl mx-auto text-center">
-            <Icon name="Mail" size={32} className="mx-auto mb-6 text-primary" />
-            <h3 className="text-3xl font-light mb-4"><span className="text-primary">Подписка</span> на обновления</h3>
+            <Icon name="Send" size={32} className="mx-auto mb-6 text-primary" />
+            <h3 className="text-3xl font-light mb-4"><span className="text-primary">Следите</span> за обновлениями</h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Получайте новые статьи прямо на почту. Без спама, только качественный контент.
+              Присоединяйтесь к нашему Telegram-каналу для новых статей и эксклюзивного контента.
             </p>
             
-            {subscribed ? (
-              <div className="flex items-center justify-center gap-2 text-primary py-3">
-                <Icon name="Check" size={20} />
-                <span className="font-medium">Спасибо за подписку!</span>
-              </div>
-            ) : (
-              <form onSubmit={handleSubscribe} className="flex gap-3">
-                <Input
-                  type="email"
-                  placeholder="ваш@email.com"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  className="flex-1 border-border focus-visible:ring-1"
-                />
-                <Button type="submit" size="lg" className="px-8">
-                  Подписаться
-                </Button>
-              </form>
-            )}
+            <a 
+              href="https://t.me/uglyscary" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <Button size="lg" className="px-12 gap-2 bg-primary hover:bg-primary/90">
+                <Icon name="Send" size={20} />
+                Подписаться на канал
+              </Button>
+            </a>
           </div>
         </section>
       </main>
