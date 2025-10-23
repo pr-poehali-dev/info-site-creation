@@ -48,7 +48,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-8">
-          <h1 className="text-2xl font-semibold tracking-tight">Хэллскари</h1>
+          <h1 className="text-2xl font-semibold tracking-tight text-primary">Хэллскари</h1>
         </div>
       </header>
 
@@ -56,7 +56,7 @@ const Index = () => {
         <section className="mb-24">
           <div className="max-w-2xl">
             <h2 className="text-5xl font-light mb-6 leading-tight">
-              Хэллскари как<br />смысл жизни
+              <span className="text-primary">Хэллскари</span> как<br />смысл жизни
             </h2>
             <p className="text-xl text-muted-foreground font-light">
               Размышления о том, что действительно важно
@@ -67,9 +67,10 @@ const Index = () => {
         <section className="mb-24">
           <div className="grid gap-12">
             {blogPosts.map((post) => (
-              <Card key={post.id} className="border-0 shadow-none overflow-hidden group cursor-pointer">
+              <Card key={post.id} className="border-0 shadow-none overflow-hidden group cursor-pointer transition-all duration-300 hover:border-l-4 hover:border-primary hover:pl-4">
                 <div className="grid md:grid-cols-2 gap-8">
-                  <div className="aspect-[4/3] overflow-hidden bg-muted">
+                  <div className="aspect-[4/3] overflow-hidden bg-muted relative">
+                    <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-all duration-300"></div>
                     <img 
                       src={post.image} 
                       alt={post.title}
@@ -87,15 +88,15 @@ const Index = () => {
                         {post.readTime}
                       </span>
                     </div>
-                    <h3 className="text-3xl font-light mb-4 group-hover:underline decoration-1 underline-offset-4">
+                    <h3 className="text-3xl font-light mb-4 group-hover:text-primary transition-colors duration-300">
                       {post.title}
                     </h3>
                     <p className="text-muted-foreground mb-6 leading-relaxed">
                       {post.description}
                     </p>
-                    <div className="flex items-center gap-2 text-sm font-medium">
+                    <div className="flex items-center gap-2 text-sm font-medium text-primary">
                       Читать статью
-                      <Icon name="ArrowRight" size={16} />
+                      <Icon name="ArrowRight" size={16} className="group-hover:translate-x-1 transition-transform" />
                     </div>
                   </CardContent>
                 </div>
@@ -106,8 +107,8 @@ const Index = () => {
 
         <section className="border-t border-border pt-16">
           <div className="max-w-xl mx-auto text-center">
-            <Icon name="Mail" size={32} className="mx-auto mb-6 text-muted-foreground" />
-            <h3 className="text-3xl font-light mb-4">Подписка на обновления</h3>
+            <Icon name="Mail" size={32} className="mx-auto mb-6 text-primary" />
+            <h3 className="text-3xl font-light mb-4"><span className="text-primary">Подписка</span> на обновления</h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Получайте новые статьи прямо на почту. Без спама, только качественный контент.
             </p>
