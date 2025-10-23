@@ -34,8 +34,17 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border">
-        <div className="max-w-6xl mx-auto px-6 py-8">
+        <div className="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
           <h1 className="text-2xl font-semibold tracking-tight text-primary">Хэллскари</h1>
+          <a 
+            href="https://t.me/uglyscary" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"
+          >
+            <Icon name="Send" size={18} />
+            Telegram
+          </a>
         </div>
       </header>
 
