@@ -140,10 +140,18 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 py-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-muted-foreground">
             <p>© 2024 Блог. Все права защищены.</p>
-            <div className="flex gap-6">
+            <div className="flex gap-6 items-center">
               <a href="#" className="hover:text-foreground transition-colors">О нас</a>
               <a href="#" className="hover:text-foreground transition-colors">Контакты</a>
-              <a href="#" className="hover:text-foreground transition-colors">RSS</a>
+              <a 
+                href="https://t.me/your_channel" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 hover:text-foreground transition-colors"
+              >
+                <Icon name="Send" size={16} />
+                Telegram
+              </a>
             </div>
           </div>
         </div>
