@@ -20,25 +20,25 @@ const Index = () => {
   const blogPosts = [
     {
       id: 1,
-      title: 'Почему Хэллскари — это философия',
-      description: 'Разбираемся, как простая идея становится образом жизни и меняет наше восприятие реальности.',
-      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/2fb9831a-3afd-4328-8626-e5f1f036b121.jpg',
+      title: 'Мода как самовыражение',
+      description: 'Исследуем, как стиль становится языком личности и способом рассказать свою историю миру.',
+      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/0c88f2fd-37c1-4fd2-ae5a-6fb0c508ce71.jpg',
       date: '15 октября 2024',
       readTime: '5 мин'
     },
     {
       id: 2,
-      title: 'Ежедневная практика Хэллскари',
-      description: 'Практические советы по интеграции принципов Хэллскари в повседневную жизнь и достижению внутренней гармонии.',
-      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/f2852add-d343-4d68-8627-4f05afef906f.jpg',
+      title: 'Дизайн, который вдохновляет',
+      description: 'Как визуальные решения формируют наше восприятие и влияют на ежедневные эмоции и действия.',
+      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/1ccb8d80-8ec7-49ef-b3a0-dc64835f015d.jpg',
       date: '10 октября 2024',
       readTime: '7 мин'
     },
     {
       id: 3,
-      title: 'Хэллскари и поиск себя',
-      description: 'Как концепция Хэллскари помогает найти собственный путь и понять, что действительно важно в жизни.',
-      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/1b0bcda9-a905-467c-833d-537d85e5506b.jpg',
+      title: 'Музыка как образ жизни',
+      description: 'Разбираем, как звуки и ритмы становятся частью нашей идентичности и формируют культурный код.',
+      image: 'https://cdn.poehali.dev/projects/a8ad4015-82dc-4303-8ea8-f129a20dbfd4/files/68bb1559-e7d1-425d-b52e-b8c5e268b636.jpg',
       date: '5 октября 2024',
       readTime: '6 мин'
     }
